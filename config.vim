@@ -41,7 +41,7 @@ set viminfo='10,\"100,:20,n~/.viminfo
 " Automatically change the working path to the path of the current file
 autocmd BufNewFile,BufEnter * silent! lcd %:p:h
 
-au BufNewFile,BufRead *.md setlocal tw=80 fo+=t colorcolumn=80
+au BufNewFile,BufRead *.md setlocal tw=80 fo+=t
 
 " Show line numbers
 set number
