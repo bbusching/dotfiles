@@ -40,3 +40,6 @@ bindkey "^N" up-line-or-search
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 bindkey "^W" backward-kill-word
+
+# Dircolors
+eval `dircolors ~/.dircolors`
